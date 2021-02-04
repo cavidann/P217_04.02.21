@@ -1,0 +1,33 @@
+$colorRed: yellow;
+$colorBlue: blue;
+section {
+    .box-1,
+    .box-2 {
+        padding: 10*2px;
+        border: 1px solid $colorRed;
+        &:hover {
+            border-color: $colorBlue;
+        }
+    }
+}
+
+p {
+    padding: 100 / 2;
+}
+
+@import "_reset.scss";
+%message-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.message {
+    margin: 0 auto;
+    @extend %message-shared;
+}
+
+.card {
+    font-size: 32px;
+    @extend %message-shared;
+}

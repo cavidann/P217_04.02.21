@@ -1,0 +1,36 @@
+section .box-1,
+section .box-2 {
+    padding: 20px;
+    border: 1px solid yellow;
+}
+
+section .box-1:hover,
+section .box-2:hover {
+    border-color: blue;
+}
+
+p {
+    padding: 100/2;
+}
+
+body {
+    padding: 0px;
+}
+
+.card,
+.message {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+}
+
+.message {
+    margin: 0 auto;
+}
+
+.card {
+    font-size: 32px;
+}
+
+
+/*# sourceMappingURL=main.css.map */
